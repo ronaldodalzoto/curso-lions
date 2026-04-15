@@ -1,0 +1,5 @@
+let itens  = ['arroz', 'feijao', 'carne', 'macarrao']
+
+itens.forEach ((produtos) => {
+    console.log('itens: ${produtos}')
+}

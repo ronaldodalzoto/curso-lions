@@ -3,7 +3,7 @@ const prompt  = require ('prompt-sync')();
 let projeto = {
     coodenador: prompt ('digite o nome do coordenador: '),
     limiteVagas: 3,
-    areaEstudo: 'Tecnologia',
+    areaEstudo: 'tecnologia',
         mentores: [
         {nome1: 'ana', areaEstudo: 'tecnologia'},
         {nome2: 'joao', areaEstudo: 'tecnologia'}
@@ -12,7 +12,7 @@ let projeto = {
 };
 
 let novoCandidato = {
-    nome: prompt ('digite o nome do novo candidato: '),
+    nomeNovoCandidato: prompt ('digite o nome do novo candidato: '),
     areaEstudo: prompt ('digite a area de estudo: ')
 };
 

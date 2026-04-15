@@ -1,0 +1,6 @@
+import numeros from "./"
+
+function adicionarNumero(num) {
+    numeros.push(num)
+    console.log ('numero adicionado com sucesso!)')
+}
